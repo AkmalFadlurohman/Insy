@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Welcome To Insy</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/insy.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary text-white fixed-top">
+      <div class="container">
+        <a class="navbar-brand col-md-0" href="#"><img class="img-fluid rounded-circle" src="Insy.png" alt="" style="width:100%;height:125%;padding:0;margin:0;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="masthead">
+      <div class="overlay">
+        <div class="container">
+          <h2 class="display-1 text-white">Ever needs to predict your income?</h1>
+          <h3 class="display-4 text-white">We made it easier for you</h2>
+        </div>
+      </div>
+    </header>
+
+    <div class="d-flex flex-row justify-content-around" style="margin-top:3%">
+      <div class="container col-md-8">
+        <form class="form-horizontal">
+          <div class="form-group"> 
+            <label for="age_id" class="control-label col-md-2">Age</label>
+            <div class="col-md-1">
+              <input type="number" class="form-control" id="age_id" name="age">
+            </div>
+          </div>  
+          <div class="form-group"> 
+            <label for="workclass_id" class="control-label col-md-2">Workclass</label>
+            <div class="col-md-5">
+              <select class="form-control" id="workclass_id">
+                <option value="Private">Private</option>
+                <option value="Self-emp-not-inc">Self-emp-not-inc</option>
+                <option value="Self-emp-inc">Self-emp-inc</option>
+                <option value="Local-gov">Local-gov</option>
+                <option value="State-gov">State-gov</option>
+                <option value="Federal-gov">Federal-gov</option>
+                <option value="Without-pay"> Without-pay</option>
+                <option value="Never-worked">Never-worked</option>
+              </select>
+            </div>         
+          </div>
+          <div class="form-group">
+            <label for="finalweight_id" class="control-label col-md-2">Finalweight</label>
+            <div class="col-md-1">
+              <input type="number" class="form-control" id="finalweight_id" name="fnlwgt">
+            </div>
+          </div>          
+                    
+          <div class="form-group">
+            <label for="education_id" class="control-label col-md-2">Last Education</label>
+            <div class="col-md-5">
+              <select class="form-control" id="education_id">
+                <option value="Bachelors">Bachelors</option>
+                <option value="Some-college">Some-college</option>
+                <option value="11th">11th</option>
+                <option value="HS-grad">HS-grad</option>
+                <option value="Prof-school">Prof-school</option>
+                <option value="Assoc-acdm">Assoc-acdm</option>
+                <option value="Assoc-voc">Assoc-voc</option>
+                <option value="9th">9th</option>
+                <option value="7th-8th">7th-8th</option>
+                <option value="12th">12th</option>
+                <option value="Masters">Masters</option>
+                <option value="1st-4th">1st-4th</option>
+                <option value="10th">10th</option>
+                <option value="Doctorate">Doctorate</option>
+                <option value="5th-6th">5th-6th</option>
+                <option value="Preschool">Preschool</option>
+              </select>
+            </div>
+          </div>  
+
+          <div class="form-group">
+            <label for="education-num_id" class="control-label col-md-2">Number of Education</label>
+            <div class="col-md-1">
+              <input type="number" class="form-control" id="education-num_id" name="education-num">
+            </div>
+          </div>
+                      
+          <div class="form-group"> 
+            <label for="marital-status_id" class="control-label col-md-2">Marriage Status</label>
+            <div class="col-md-5">
+              <select class="form-control" id="marital-status_id">
+                <option value="Married-civ-spouse">Married (Civillian spouse)</option>
+                <option value="Married-AF-spouse">Married (Armed Forces spouse)</option>
+                <option value="Married-spouse-absent">Married (Spoue is absent)</option>
+                <option value="Separated">Separated</option>
+                <option value="Divorced">Divorced</option>
+                <option value="Widowed">Widowed</option>
+                <option value="Never-married">Unmarried</option>
+              </select> 
+            </div>        
+          </div>
+        
+          <div class="form-group"> 
+            <label for="occupation_id" class="control-label col-md-2">Occupation</label>
+            <div class="col-md-5">
+              <select class="form-control" id="occupation_id">
+                <option value="Tech-support">Tech-support</option>
+                <option value="Craft-repair">Craft-repair</option>
+                <option value="Other-service">Other-service</option>
+                <option value="Sales">Sales</option>
+                <option value="Exec-managerial">Exec-managerial</option>
+                <option value="Prof-specialty">Prof-specialty</option>
+                <option value="Handlers-cleaners">Handlers-cleaners</option>
+                <option value="Machine-op-inspct">Handlers-cleaners</option>
+                <option value="Adm-clerical">Adm-clerical</option>
+                <option value="Farming-fishing">Farming-fishing</option>
+                <option value="Transport-moving">Transport-moving</option>
+                <option value="Priv-house-serv">Priv-house-serv</option>
+                <option value="Protective-serv">Protective-serv</option>
+                <option value="Armed-Forces">Armed-Forces</option>
+              </select>
+            </div>         
+          </div>
+
+          <div class="form-group"> 
+            <label for="relationship_id" class="control-label col-md-2">Relationship</label>
+            <div class="col-md-5">
+              <select class="form-control" id="relationship_id">
+                <option value="Wife">Wife</option>
+                <option value="Own-child">Own-child</option>
+                <option value="Husband">Husband</option>
+                <option value="Not-in-family">Not-in-family</option>
+                <option value="Other-relative">Other-relative</option>
+                <option value="Unmarried">Unmarried</option>
+              </select> 
+            </div>        
+          </div>
+
+          <div class="form-group"> 
+            <label for="race_id" class="control-label col-md-2">Race</label>
+            <div class="col-md-5">
+              <select class="form-control" id="race_id">
+                <option value="White">White</option>
+                <option value="Asian-Pac-Islander">Asian-Pac-Islander</option>
+                <option value="Amer-Indian-Eskimo">Amer-Indian-Eskimo</option>
+                <option value="Black">Black</option>
+                <option value="Other">Other</option>
+              </select> 
+            </div>        
+          </div>
+
+          <div class="form-group"> 
+            <label for="sex_id" class="control-label col-md-2">Sex</label>
+            <div class="col-md-5">
+              <select class="form-control" id="sex_id">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+              </select>
+            </div>         
+          </div>  
+
+          <div class="form-group">
+            <label for="capital-gain_id" class="control-label col-md-2">Capital Gain</label>
+            <div class="col-md-1">
+              <input type="number" class="form-control" id="capital-gain_id" name="capital-gain">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="capital-loss_id" class="control-label col-md-2">Capital Loss</label>
+            <div class="col-md-1">
+              <input type="number" class="form-control" id="capital-loss_id" name="capital-loss">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="hours-per-week_id" class="control-label col-md-2">Working Hours per Week</label>
+            <div class="col-md-1">
+              <input type="number" class="form-control" id="hours-per-week_id" name="hours-per-week">
+            </div>
+          </div>  
+          
+          <div class="form-group"> 
+            <label for="native-country_id" class="control-label col-md-2">Native Country</label>
+            <div class="col-md-5">
+              <select class="form-control" id="native-country_id">
+                <option value="United-States">United-States</option>
+                <option value="Cambodia">Cambodia</option>
+                <option value="England">England</option>
+                <option value="Puerto-Rico">Puerto-Rico</option>
+                <option value="Outlying-US(Guam-USVI-etc)">Outlying-US(Guam-USVI-etc)</option>
+                <option value="India">India</option>
+                <option value="Japan">Japan</option>
+                <option value="Greece">Greece</option>
+                <option value="South">South</option>
+                <option value="China">China</option>
+                <option value="Cuba">Cuba</option>
+                <option value="Iran">Iran</option>
+                <option value="Honduras">Honduras</option>
+                <option value="Philippines">Philippines</option>
+                <option value="Italy">Italy</option>
+                <option value="Poland">Poland</option>
+                <option value="Jamaica">Jamaica</option>
+                <option value="Vietnam">Vietnam</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Portugal">Portugal</option>
+                <option value="Ireland">Ireland</option>
+                <option value="France">France</option>
+                <option value="Dominican-Republic">Dominican-Republic</option>
+                <option value="Laos">Laos</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Taiwan">Taiwan</option>
+                <option value="Haiti">Haiti</option>
+                <option value="Columbia">Columbia</option>
+                <option value="Hungary">Hungary</option>
+                <option value="Guatemala">Taiwan</option>
+                <option value="Nicaragua">Nicaragua</option>
+                <option value="Scotland">Scotland</option>
+                <option value="Thailand">Thailand</option>
+                <option value="Yugoslavia">Yugoslavia</option>
+                <option value="El-Salvador">El-Salvador</option>
+                <option value="Trinadad&Tobago">Trinadad&Tobago</option>
+                <option value="Peru">Peru</option>
+                <option value="Hong">Hong</option>
+                <option value="Holand-Netherlands">Holand-Netherlands</option>
+              </select>
+            </div>         
+          </div>
+          <div class="form-group">
+            <div class="col-md-offset-2 col-md-10"> 
+              <button type="submit" class="btn btn-primary">Predict!</button>
+            </div>
+          </div>     
+        </form>
+      </div>
+      <div class="container">
+        <div class="row">
+            <div>
+              <div class="p-3">
+                <h2>Created By:</h2>
+                <p>13515005</p>
+                <p>13515014</p>
+                <p>13515074</p>
+                <p>13515086</p>
+                <p>13515100</p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+
+    
+    <footer class="py-5 bg-primary">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; insy.com 2017</p>
+      </div>
+    </footer>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>

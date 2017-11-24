@@ -1,0 +1,90 @@
+[Fri Nov 24 14:05:32.109188 2017] [wsgi:error] [pid 9886] [remote 127.0.0.1:49575] mod_wsgi (pid=9886): Target WSGI script '/Users/akmalfadlurohman/Documents/Code/Python/Insy/Insy.wsgi' cannot be loaded as Python module.
+[Fri Nov 24 14:05:32.109313 2017] [wsgi:error] [pid 9886] [remote 127.0.0.1:49575] mod_wsgi (pid=9886): Exception occurred processing WSGI script '/Users/akmalfadlurohman/Documents/Code/Python/Insy/Insy.wsgi'.
+[Fri Nov 24 14:05:32.109333 2017] [wsgi:error] [pid 9886] [remote 127.0.0.1:49575] Traceback (most recent call last):
+[Fri Nov 24 14:05:32.109350 2017] [wsgi:error] [pid 9886] [remote 127.0.0.1:49575]   File "/Users/akmalfadlurohman/Documents/Code/Python/Insy/Insy.wsgi", line 7, in <module>
+[Fri Nov 24 14:05:32.109401 2017] [wsgi:error] [pid 9886] [remote 127.0.0.1:49575]     from Insy import app as application
+[Fri Nov 24 14:05:32.109418 2017] [wsgi:error] [pid 9886] [remote 127.0.0.1:49575] ImportError: No module named Insy
+[Fri Nov 24 14:05:32.125247 2017] [wsgi:error] [pid 9886] [remote 127.0.0.1:49576] mod_wsgi (pid=9886): Target WSGI script '/Users/akmalfadlurohman/Documents/Code/Python/Insy/Insy.wsgi' cannot be loaded as Python module.
+[Fri Nov 24 14:05:32.125265 2017] [wsgi:error] [pid 9886] [remote 127.0.0.1:49576] mod_wsgi (pid=9886): Exception occurred processing WSGI script '/Users/akmalfadlurohman/Documents/Code/Python/Insy/Insy.wsgi'.
+[Fri Nov 24 14:05:32.125278 2017] [wsgi:error] [pid 9886] [remote 127.0.0.1:49576] Traceback (most recent call last):
+[Fri Nov 24 14:05:32.125297 2017] [wsgi:error] [pid 9886] [remote 127.0.0.1:49576]   File "/Users/akmalfadlurohman/Documents/Code/Python/Insy/Insy.wsgi", line 7, in <module>
+[Fri Nov 24 14:05:32.125318 2017] [wsgi:error] [pid 9886] [remote 127.0.0.1:49576]     from Insy import app as application
+[Fri Nov 24 14:05:32.125331 2017] [wsgi:error] [pid 9886] [remote 127.0.0.1:49576] ImportError: No module named Insy
+[Fri Nov 24 14:05:32.796180 2017] [wsgi:error] [pid 9886] [remote 127.0.0.1:49577] mod_wsgi (pid=9886): Target WSGI script '/Users/akmalfadlurohman/Documents/Code/Python/Insy/Insy.wsgi' cannot be loaded as Python module.
+[Fri Nov 24 14:05:32.796195 2017] [wsgi:error] [pid 9886] [remote 127.0.0.1:49577] mod_wsgi (pid=9886): Exception occurred processing WSGI script '/Users/akmalfadlurohman/Documents/Code/Python/Insy/Insy.wsgi'.
+[Fri Nov 24 14:05:32.796208 2017] [wsgi:error] [pid 9886] [remote 127.0.0.1:49577] Traceback (most recent call last):
+[Fri Nov 24 14:05:32.796221 2017] [wsgi:error] [pid 9886] [remote 127.0.0.1:49577]   File "/Users/akmalfadlurohman/Documents/Code/Python/Insy/Insy.wsgi", line 7, in <module>
+[Fri Nov 24 14:05:32.796240 2017] [wsgi:error] [pid 9886] [remote 127.0.0.1:49577]     from Insy import app as application
+[Fri Nov 24 14:05:32.796252 2017] [wsgi:error] [pid 9886] [remote 127.0.0.1:49577] ImportError: No module named Insy
+[Fri Nov 24 14:05:40.113189 2017] [wsgi:error] [pid 9886] [remote 127.0.0.1:49580] mod_wsgi (pid=9886): Target WSGI script '/Users/akmalfadlurohman/Documents/Code/Python/Insy/Insy.wsgi' cannot be loaded as Python module.
+[Fri Nov 24 14:05:40.113242 2017] [wsgi:error] [pid 9886] [remote 127.0.0.1:49580] mod_wsgi (pid=9886): Exception occurred processing WSGI script '/Users/akmalfadlurohman/Documents/Code/Python/Insy/Insy.wsgi'.
+[Fri Nov 24 14:05:40.113258 2017] [wsgi:error] [pid 9886] [remote 127.0.0.1:49580] Traceback (most recent call last):
+[Fri Nov 24 14:05:40.113273 2017] [wsgi:error] [pid 9886] [remote 127.0.0.1:49580]   File "/Users/akmalfadlurohman/Documents/Code/Python/Insy/Insy.wsgi", line 7, in <module>
+[Fri Nov 24 14:05:40.113293 2017] [wsgi:error] [pid 9886] [remote 127.0.0.1:49580]     from Insy import app as application
+[Fri Nov 24 14:05:40.113307 2017] [wsgi:error] [pid 9886] [remote 127.0.0.1:49580] ImportError: No module named Insy
+[Fri Nov 24 14:05:40.926890 2017] [wsgi:error] [pid 9886] [remote 127.0.0.1:49583] mod_wsgi (pid=9886): Target WSGI script '/Users/akmalfadlurohman/Documents/Code/Python/Insy/Insy.wsgi' cannot be loaded as Python module.
+[Fri Nov 24 14:05:40.926919 2017] [wsgi:error] [pid 9886] [remote 127.0.0.1:49583] mod_wsgi (pid=9886): Exception occurred processing WSGI script '/Users/akmalfadlurohman/Documents/Code/Python/Insy/Insy.wsgi'.
+[Fri Nov 24 14:05:40.926960 2017] [wsgi:error] [pid 9886] [remote 127.0.0.1:49583] Traceback (most recent call last):
+[Fri Nov 24 14:05:40.926988 2017] [wsgi:error] [pid 9886] [remote 127.0.0.1:49583]   File "/Users/akmalfadlurohman/Documents/Code/Python/Insy/Insy.wsgi", line 7, in <module>
+[Fri Nov 24 14:05:40.927061 2017] [wsgi:error] [pid 9886] [remote 127.0.0.1:49583]     from Insy import app as application
+[Fri Nov 24 14:05:40.927087 2017] [wsgi:error] [pid 9886] [remote 127.0.0.1:49583] ImportError: No module named Insy
+[Fri Nov 24 15:22:01.022879 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50116] [2017-11-24 15:22:01,021] ERROR in app: Exception on / [GET]
+[Fri Nov 24 15:22:01.023127 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50116] Traceback (most recent call last):
+[Fri Nov 24 15:22:01.023139 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50116]   File "/Users/akmalfadlurohman/Documents/Code/Python/Insy/venv/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+[Fri Nov 24 15:22:01.023143 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50116]     response = self.full_dispatch_request()
+[Fri Nov 24 15:22:01.023146 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50116]   File "/Users/akmalfadlurohman/Documents/Code/Python/Insy/venv/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+[Fri Nov 24 15:22:01.023149 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50116]     rv = self.handle_user_exception(e)
+[Fri Nov 24 15:22:01.023152 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50116]   File "/Users/akmalfadlurohman/Documents/Code/Python/Insy/venv/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+[Fri Nov 24 15:22:01.023155 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50116]     reraise(exc_type, exc_value, tb)
+[Fri Nov 24 15:22:01.023158 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50116]   File "/Users/akmalfadlurohman/Documents/Code/Python/Insy/venv/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+[Fri Nov 24 15:22:01.023161 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50116]     rv = self.dispatch_request()
+[Fri Nov 24 15:22:01.023164 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50116]   File "/Users/akmalfadlurohman/Documents/Code/Python/Insy/venv/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+[Fri Nov 24 15:22:01.023167 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50116]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Nov 24 15:22:01.023170 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50116]   File "/Users/akmalfadlurohman/Documents/Code/Python/Insy/insy_app/__init__.py", line 7, in root
+[Fri Nov 24 15:22:01.023174 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50116]     return current_app.send_static_file('index.html')
+[Fri Nov 24 15:22:01.023176 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50116] NameError: global name 'current_app' is not defined
+[Fri Nov 24 15:22:05.942510 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50117] [2017-11-24 15:22:05,942] ERROR in app: Exception on / [GET]
+[Fri Nov 24 15:22:05.942571 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50117] Traceback (most recent call last):
+[Fri Nov 24 15:22:05.942576 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50117]   File "/Users/akmalfadlurohman/Documents/Code/Python/Insy/venv/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+[Fri Nov 24 15:22:05.942579 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50117]     response = self.full_dispatch_request()
+[Fri Nov 24 15:22:05.942582 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50117]   File "/Users/akmalfadlurohman/Documents/Code/Python/Insy/venv/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+[Fri Nov 24 15:22:05.942586 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50117]     rv = self.handle_user_exception(e)
+[Fri Nov 24 15:22:05.942599 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50117]   File "/Users/akmalfadlurohman/Documents/Code/Python/Insy/venv/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+[Fri Nov 24 15:22:05.942603 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50117]     reraise(exc_type, exc_value, tb)
+[Fri Nov 24 15:22:05.942606 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50117]   File "/Users/akmalfadlurohman/Documents/Code/Python/Insy/venv/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+[Fri Nov 24 15:22:05.942609 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50117]     rv = self.dispatch_request()
+[Fri Nov 24 15:22:05.942612 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50117]   File "/Users/akmalfadlurohman/Documents/Code/Python/Insy/venv/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+[Fri Nov 24 15:22:05.942615 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50117]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Nov 24 15:22:05.942618 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50117]   File "/Users/akmalfadlurohman/Documents/Code/Python/Insy/insy_app/__init__.py", line 7, in root
+[Fri Nov 24 15:22:05.942621 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50117]     return current_app.send_static_file('index.html')
+[Fri Nov 24 15:22:05.942624 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50117] NameError: global name 'current_app' is not defined
+[Fri Nov 24 15:23:06.020377 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50127] [2017-11-24 15:23:06,020] ERROR in app: Exception on / [GET]
+[Fri Nov 24 15:23:06.026519 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50127] Traceback (most recent call last):
+[Fri Nov 24 15:23:06.026549 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50127]   File "/Users/akmalfadlurohman/Documents/Code/Python/Insy/venv/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+[Fri Nov 24 15:23:06.026557 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50127]     response = self.full_dispatch_request()
+[Fri Nov 24 15:23:06.026562 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50127]   File "/Users/akmalfadlurohman/Documents/Code/Python/Insy/venv/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+[Fri Nov 24 15:23:06.026567 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50127]     rv = self.handle_user_exception(e)
+[Fri Nov 24 15:23:06.026571 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50127]   File "/Users/akmalfadlurohman/Documents/Code/Python/Insy/venv/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+[Fri Nov 24 15:23:06.026576 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50127]     reraise(exc_type, exc_value, tb)
+[Fri Nov 24 15:23:06.026580 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50127]   File "/Users/akmalfadlurohman/Documents/Code/Python/Insy/venv/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+[Fri Nov 24 15:23:06.026586 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50127]     rv = self.dispatch_request()
+[Fri Nov 24 15:23:06.026590 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50127]   File "/Users/akmalfadlurohman/Documents/Code/Python/Insy/venv/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+[Fri Nov 24 15:23:06.026596 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50127]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Nov 24 15:23:06.026601 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50127]   File "/Users/akmalfadlurohman/Documents/Code/Python/Insy/insy_app/__init__.py", line 7, in root
+[Fri Nov 24 15:23:06.026606 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50127]     return app.send_static_file('index.html')
+[Fri Nov 24 15:23:06.026611 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50127] NameError: global name 'current_app' is not defined
+[Fri Nov 24 15:24:32.067495 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50142] [2017-11-24 15:24:32,066] ERROR in app: Exception on / [GET]
+[Fri Nov 24 15:24:32.067896 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50142] Traceback (most recent call last):
+[Fri Nov 24 15:24:32.067965 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50142]   File "/Users/akmalfadlurohman/Documents/Code/Python/Insy/venv/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+[Fri Nov 24 15:24:32.068015 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50142]     response = self.full_dispatch_request()
+[Fri Nov 24 15:24:32.068020 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50142]   File "/Users/akmalfadlurohman/Documents/Code/Python/Insy/venv/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+[Fri Nov 24 15:24:32.068023 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50142]     rv = self.handle_user_exception(e)
+[Fri Nov 24 15:24:32.068026 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50142]   File "/Users/akmalfadlurohman/Documents/Code/Python/Insy/venv/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+[Fri Nov 24 15:24:32.068029 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50142]     reraise(exc_type, exc_value, tb)
+[Fri Nov 24 15:24:32.068032 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50142]   File "/Users/akmalfadlurohman/Documents/Code/Python/Insy/venv/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+[Fri Nov 24 15:24:32.068039 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50142]     rv = self.dispatch_request()
+[Fri Nov 24 15:24:32.068044 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50142]   File "/Users/akmalfadlurohman/Documents/Code/Python/Insy/venv/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+[Fri Nov 24 15:24:32.068047 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50142]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Nov 24 15:24:32.068050 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50142]   File "/Users/akmalfadlurohman/Documents/Code/Python/Insy/insy_app/__init__.py", line 7, in root
+[Fri Nov 24 15:24:32.068053 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50142]     return app.send_static_file('index.html')
+[Fri Nov 24 15:24:32.068056 2017] [wsgi:error] [pid 10545] [client 127.0.0.1:50142] NameError: global name 'current_app' is not defined
